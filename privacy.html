@@ -40,6 +40,7 @@
     }
     h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
     h2 { font-size: 1.35rem; margin: 40px 0 12px; }
+    h3 { font-size: 1.05rem; margin: 24px 0 8px; }
     p, ul { margin: 0 0 16px; }
     ul { padding-left: 1.25em; }
     li { margin-bottom: 8px; }
@@ -58,7 +59,7 @@
       border-radius: 12px;
       padding: 16px 20px;
     }
-    .summary p:last-child { margin-bottom: 0; }
+    .summary p:last-child, .summary ul:last-child { margin-bottom: 0; }
     .table-wrap { overflow-x: auto; margin: 0 0 16px; }
     table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
     th, td {
@@ -74,14 +75,20 @@
   <main>
     <header>
       <h1>Wardrobe Editor — Privacy Policy</h1>
-      <p class="updated">Last updated: <time datetime="2026-10-23">October 23, 2026</time></p>
+      <p class="updated">Last updated: <time datetime="2026-10-24">October 24, 2026</time></p>
       <p>This policy covers the Wardrobe Editor app for iPhone, iPad and Mac.</p>
     </header>
 
     <section>
       <h2>The short version</h2>
       <div class="summary">
-        <p><strong>Wardrobe Editor does not collect any data about you.</strong> The app has no account, no sign-in, no advertising, no analytics and no tracking. It does not connect to the internet. Your projects never leave your device unless you choose to share or export them.</p>
+        <ul>
+          <li><strong>Your projects stay on your device.</strong> The app has no account and no sign-in. Projects, catalog items and settings never leave your device unless you share or export them yourself.</li>
+          <li><strong>The developer does not collect any data about you.</strong> The developer has no server and receives no personal information from the app.</li>
+          <li><strong>On iPhone and iPad the free version shows ads from Google AdMob.</strong> To show ads, Google receives some technical data from your device, described below. Buying Full access turns the ads off.</li>
+          <li><strong>The Mac version shows no ads.</strong></li>
+          <li><strong>Purchases are handled by Apple.</strong> The developer never sees your payment details.</li>
+        </ul>
       </div>
     </section>
 
@@ -113,11 +120,61 @@
               <td>Decor pictures you import</td>
               <td>The app's storage on your device</td>
             </tr>
+            <tr>
+              <td>Your ad choices (consent), where the law requires asking for them</td>
+              <td>The app's settings on your device</td>
+            </tr>
+            <tr>
+              <td>Whether you have bought Full access</td>
+              <td>Kept by Apple with your Apple Account. The app asks the App Store for it and keeps a copy in its settings on your device.</td>
+            </tr>
           </tbody>
         </table>
       </div>
-      <p>The developer has no access to any of this. If you delete the app, this data is deleted from your device, apart from copies you exported yourself.</p>
+      <p>The developer has no access to any of this. If you delete the app, this data is deleted from your device, apart from copies you exported yourself. Purchases stay with your Apple Account and can be restored.</p>
       <p>Your device's own backup (iCloud Backup or a computer backup) may include the app's data. That backup is managed by Apple under your Apple Account settings. It is not handled by Wardrobe Editor or its developer.</p>
+    </section>
+
+    <section>
+      <h2>Advertising (iPhone and iPad)</h2>
+      <p>The free version of Wardrobe Editor on iPhone and iPad shows full-screen ads from time to time. The ads are provided by <strong>Google AdMob</strong>, a service of Google, through the Google Mobile Ads SDK built into the app. The developer does not choose the individual ads you see.</p>
+
+      <h3>What Google receives</h3>
+      <p>To choose, show and measure ads, the Google Mobile Ads SDK may collect:</p>
+      <ul>
+        <li><strong>Device identifiers.</strong> Identifiers limited to this app or this developer. The app does not ask for permission to track you across other companies' apps and websites, so your device's advertising identifier (IDFA) is not available to Google.</li>
+        <li><strong>IP address.</strong> It may be used to estimate the general location of your device, such as the country or city.</li>
+        <li><strong>Advertising data.</strong> For example, which ads you have seen and whether you tapped them.</li>
+        <li><strong>Product interaction.</strong> For example, app launches and taps on ads.</li>
+        <li><strong>Performance and diagnostic data.</strong> For example, app launch time, hangs, energy use and crash logs.</li>
+      </ul>
+      <p>Google uses this data to show ads, limit how often you see the same ad, measure ad performance, prevent fraud and improve its services. It is handled under <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>. To learn more, see <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google uses information from apps that use its services</a>. You can manage ad personalization in <a href="https://myadcenter.google.com/" rel="noopener">My Ad Center</a>.</p>
+
+      <h3>Your choices</h3>
+      <ul>
+        <li><strong>In the European Economic Area, the United Kingdom and Switzerland</strong>, the app shows Google's consent message before any ads are requested. There you choose whether Google may use your data for personalized ads. You can change your choice at any time in the app: <strong>Settings › Privacy choices</strong>.</li>
+        <li><strong>In other regions</strong>, where local privacy laws give you a right to opt out, the same message and settings are shown where required.</li>
+        <li><strong>Turn off ads completely</strong> by buying Full access. With Full access the app does not request ads and the Google Mobile Ads SDK sends no ad requests.</li>
+      </ul>
+
+      <h3>What the developer receives</h3>
+      <p>The developer sees only totals in AdMob reports, for example how many ads were shown and earnings by country. These reports do not identify you.</p>
+    </section>
+
+    <section>
+      <h2>Purchases and subscriptions</h2>
+      <p>Full access is sold through the App Store, as a subscription or as a one-time purchase. Payment is handled entirely by Apple. The developer does not receive your name, payment details or Apple Account information.</p>
+      <p>The app asks the App Store whether you have Full access on this Apple Account, so that it can unlock features and turn off ads. A subscription renews automatically until you cancel it in your <strong>Apple Account settings › Subscriptions</strong>. If you reinstall the app or use another device, tap <strong>Restore</strong> on the purchase screen.</p>
+    </section>
+
+    <section>
+      <h2>Internet connection</h2>
+      <p>Wardrobe Editor works without an internet connection. It connects to the internet only:</p>
+      <ul>
+        <li>to request and show ads from Google AdMob (free version on iPhone and iPad);</li>
+        <li>to talk to the App Store about purchases.</li>
+      </ul>
+      <p>Your projects, drawings, cutting maps and catalog items are never sent over the internet by the app.</p>
     </section>
 
     <section>
@@ -126,7 +183,7 @@
         <li><strong>Add to Photos.</strong> The app asks for this only when you save a picture of your furniture to Photos. It can add pictures, but it cannot see or read your photo library.</li>
         <li><strong>Files you pick.</strong> When you import a decor picture, a project file or a catalog backup, the app reads only the file you selected.</li>
       </ul>
-      <p>The app does not use your location, camera, microphone, contacts, calendars or any other personal data.</p>
+      <p>The app does not use your precise location, camera, microphone, contacts, calendars or any other personal data.</p>
     </section>
 
     <section>
@@ -135,18 +192,36 @@
     </section>
 
     <section>
+      <h2>Accuracy of calculations and results</h2>
+      <p>Wardrobe Editor is a design aid. Part sizes, joints, drilling, hardware, edge banding, drawings, cutting maps, quantities and all other results are calculated automatically from the data you enter and from catalog values (board thicknesses, hardware dimensions and placement rules). These values may differ from the materials and hardware you actually use.</p>
+      <p>All results are provided "as is", without warranty of any kind. Before you order materials, send files to a cutting service or start manufacturing, you are responsible for checking every size, quantity, joint, hole position and hardware choice, and for confirming them with your supplier or manufacturer.</p>
+      <p>To the maximum extent permitted by applicable law, the developer is not liable for errors or omissions in the calculations, drawings or exported files, or for any loss or damage resulting from their use, including wasted materials, manufacturing defects, delays or installation costs.</p>
+      <p>Nothing in this section limits rights you have under consumer protection laws of your country that cannot be excluded by agreement.</p>
+    </section>
+
+    <section>
       <h2>Children</h2>
-      <p>The app does not collect personal information from anyone, including children.</p>
+      <p>Wardrobe Editor is a furniture design tool and is not directed at children. The developer does not collect personal information from anyone, including children.</p>
     </section>
 
     <section>
       <h2>Data collected by Apple</h2>
-      <p>Apple may collect information when you download the app or use the App Store. This is covered by <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a>. If you turn on <strong>Share with App Developers</strong> in your device's Analytics settings, Apple may pass the developer anonymous crash reports and usage statistics, which are used only to fix problems. The developer does not receive your name, contact details or any other personal information from Apple.</p>
+      <p>Apple may collect information when you download the app, make a purchase or use the App Store. This is covered by <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a>. If you turn on <strong>Share with App Developers</strong> in your device's Analytics settings, Apple may pass the developer anonymous crash reports and usage statistics, which are used only to fix problems. The developer does not receive your name, contact details or any other personal information from Apple.</p>
+    </section>
+
+    <section>
+      <h2>Your rights</h2>
+      <p>The developer does not hold personal data about you, so there is nothing for the developer to show, correct or delete. For data that Google processes to show ads, use your choices in the app (<strong>Settings › Privacy choices</strong>) and <a href="https://policies.google.com/privacy" rel="noopener">Google's privacy tools</a>. For purchases, see your Apple Account settings.</p>
+    </section>
+
+    <section>
+      <h2>Terms of use</h2>
+      <p>Use of the app and purchases are governed by Apple's <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">Standard End User License Agreement</a>.</p>
     </section>
 
     <section>
       <h2>Changes to this policy</h2>
-      <p>If the app ever starts handling data in a new way, this page will be updated before that version is released, and the date at the top will change.</p>
+      <p>If the app starts handling data in a new way, this page will be updated before that version is released, and the date at the top will change.</p>
     </section>
 
     <section>
